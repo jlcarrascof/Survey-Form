@@ -3,4 +3,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: Tahoma, sans-serif
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
 }
