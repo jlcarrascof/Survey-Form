@@ -120,3 +120,24 @@ h1 {
 label {
     color: white;
 }
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container form label {
+    margin-left: 30px;
+    padding: 10px 0;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.container form input {
+    width: calc(100% - 50px);
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 30px;
+    border-radius: 8px;
+}
