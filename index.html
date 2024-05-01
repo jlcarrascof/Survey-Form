@@ -12,8 +12,21 @@
     <div class="background-image"></div>
     <div class="container">
         <form id="survey-form">
-            <label for="name">Name</label>
+            <label for="name" id="name-label">Name</label>
             <input id="name" type="text" placeholder="Enter your name" required />
+            <label for="email" id="email-label">Email</label>
+            <input id="email" type="email" placeholder="Enter your Email" required />
+            <label for="number" id="number-label">Age <span class="clue">(optional)</span></label>
+            <input id="number" type="number" placeholder="Age" min="15" max="80" />
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select name="select" id="dropdown">
+                <option value="" disabled selected>Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Full Time Learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select>
         </form>
     </div>
 </body>
