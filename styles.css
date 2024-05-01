@@ -102,4 +102,5 @@ form input {
 
 form select {
     height: 40px;
+    width: calc(100% - 50px);
 }
