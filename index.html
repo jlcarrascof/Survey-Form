@@ -12,10 +12,12 @@
     <div class="background-image"></div>
     <div class="container">
         <form id="survey-form">
-            <label for="name">Name</label>
+            <label for="name" id="name-label">Name</label>
             <input id="name" type="text" placeholder="Enter your name" required />
-            <label for="email">Email</label>
+            <label for="email" id="email-label">Email</label>
             <input id="email" type="email" placeholder="Enter your Email" required />
+            <label for="number" id="number-label">Age (optional)</label>
+            <input id="number" type="number" placeholder="Age" min="15" max="80" />
         </form>
     </div>
 </body>
