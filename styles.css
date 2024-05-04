@@ -60,7 +60,7 @@ h1 {
     background-color: rgba(15, 0, 0, 0.607);
     position: relative;
     z-index: 2;
-    overflow: auto;
+    overflow: hidden;
     margin: auto;
     min-width: 400px;
 }
@@ -104,4 +104,24 @@ form input {
 form select {
     height: 40px;
     width: calc(100% - 50px);
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display: inline;
+}
+
+.radio-option {
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.radio-option input {
+    margin-right: 15px;
+}
+
+.container form .option-radio {
+    margin-left: 0px;
 }
