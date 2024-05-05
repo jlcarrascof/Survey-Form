@@ -55,7 +55,7 @@ h1 {
     display: block;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 150vh;
     width: 55vw;
     background-color: rgba(15, 0, 0, 0.607);
     position: relative;
@@ -112,15 +112,15 @@ form select {
     display: inline;
 }
 
-.radio-option {
+.radio-option, .check-option {
     margin-bottom: 15px;
     margin-left: 30px;
 }
 
-.radio-option input {
+.radio-option, .check-option input {
     margin-right: 15px;
 }
 
-.container form .option-radio {
+.container form .option-radio, .container form .option-check {
     margin-left: 0px;
 }
