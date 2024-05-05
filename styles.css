@@ -1,5 +1,5 @@
 body {
-    font-family: Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -55,13 +55,13 @@ h1 {
     display: block;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    min-height: 150vh;
     width: 55vw;
     background-color: rgba(15, 0, 0, 0.607);
     position: relative;
     z-index: 2;
-    overflow: auto;
     margin: auto;
+    min-width: 400px;
 }
 
 label {
@@ -78,7 +78,7 @@ label {
     margin-left: 30px;
     padding: 10px 0;
     font-weight: 600;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .clue {
@@ -103,4 +103,24 @@ form input {
 form select {
     height: 40px;
     width: calc(100% - 50px);
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display: inline;
+}
+
+.radio-option, .check-option {
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.radio-option, .check-option input {
+    margin-right: 15px;
+}
+
+.container form .option-radio, .container form .option-check {
+    margin-left: 0px;
 }
