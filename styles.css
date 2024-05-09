@@ -125,15 +125,6 @@ form select {
     margin-left: 0px;
 }
 
-/*
-textarea {
-    /*
-    margin: 10px 0;
-    width: calc(100% - 55px);
-    min-height: 6rem;
-}
-*/
-
 .container textarea {
     margin: 10px 0 0 30px;
     width: calc(100% - 70px);
