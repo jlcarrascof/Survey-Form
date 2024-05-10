@@ -55,7 +55,7 @@ h1 {
     display: block;
     justify-content: center;
     align-items: center;
-    min-height: 160vh;
+    min-height: 140vh;
     width: 55vw;
     background-color: rgba(15, 0, 0, 0.607);
     position: relative;
