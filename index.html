@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Form</title>
+    <title>Italian Restaurant Survey</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <h1 id="title">Italian Restaurant Survey</h1>
+    <p id="description">Thank you for taking the time to help us improve our Italian restaurant!</p>
     <div class="background-image"></div>
     <div class="container">
         <form id="survey-form">
@@ -18,16 +18,16 @@
             <input id="email" type="email" placeholder="Enter your Email" required />
             <label for="number" id="number-label">Age <span class="clue">(optional)</span></label>
             <input id="number" type="number" placeholder="Age" min="15" max="80" />
-            <label for="dropdown">Which option best describes your current role?</label>
+            <label for="dropdown">How often do you visit our restaurant?</label>
             <select name="select" id="dropdown">
-                <option value="" disabled selected>Select current role</option>
-                <option value="1">Student</option>
-                <option value="2">Full Time Job</option>
-                <option value="3">Full Time Learner</option>
-                <option value="4">Prefer not to say</option>
+                <option value="" disabled selected>Select frequency</option>
+                <option value="1">Regularly (at least once a week)</option>
+                <option value="2">Occasionally (once or twice a month)</option>
+                <option value="3">Rarely (less than once a month)</option>
+                <option value="4">First time visitor</option>
                 <option value="5">Other</option>
             </select>
-            <label>Would you recommend freeCodeCamp to a friend?</label>
+            <label>Would you recommend our Italian restaurant to a friend?</label>
             <div class="radio-option">
                 <input id="definitely-radio" type="radio" name="recommend" checked class="inline" value="1" />
                 <label for="definitely-radio" class="option-radio">Definitely</label>
@@ -40,59 +40,45 @@
                 <input id="not-sure-radio" type="radio" name="recommend" class="inline" value="3" />
                 <label for="not-sure-radio" class="option-radio">Not sure</label>
             </div>
-            <label for="dropdown">What is your favorite feature of freeCodeCamp?</label>
-            <select name="select" id="dropdown">
-                <option value="" disabled selected>Select an option</option>
-                <option value="1">Challenges</option>
-                <option value="2">Projects</option>
-                <option value="3">Community</option>
-                <option value="4">Open Source</option>
+            <label for="downoption">What is your favorite dish at our restaurant?</label>
+            <select name="select" id="downoption">
+                <option value="" disabled selected>Select your favorite dish</option>
+                <option value="1">Pizza Margherita</option>
+                <option value="2">Spaghetti Carbonara</option>
+                <option value="3">Lasagna</option>
+                <option value="4">Risotto al Funghi</option>
+                <option value="5">Tiramisu</option>
+                <option value="6">Gelato</option>
+                <option value="7">Other</option>
             </select>
-            <label for="" id="">What would you like to see improved? <span class="clue">(Check all that apply)</span></label>
+            <label for="" id="">What would you like to see improved at our restaurant? <span class="clue">(Check all that apply)</span></label>
             <div class="check-option">
                 <input id="frontend" type="checkbox" name="improve" value="1" class="inline" />
-                <label class="option-check">Front-end Projects</label>
+                <label class="option-check">Atmosphere and ambiance</label>
             </div>
             <div class="check-option">
                 <input id="backend" type="checkbox" name="improve" value="2" class="inline" />
-                <label class="option-check">Back-end Projects</label>
+                <label class="option-check">Menu variety</label>
             </div>
             <div class="check-option">
                 <input id="data" type="checkbox" name="improve" value="3" class="inline" />
-                <label class="option-check">Data Visualization</label>
+                <label class="option-check">Quality of service</label>
             </div>
             <div class="check-option">
                 <input id="challenges" type="checkbox" name="improve" value="4" class="inline" />
-                <label class="option-check">Challenges</label>
+                <label class="option-check">Prices and affordability</label>
             </div>
             <div class="check-option">
                 <input id="opensource" type="checkbox" name="improve" value="5" class="inline" />
-                <label class="option-check">Open Source Community</label>
+                <label class="option-check">Cleanliness and hygiene</label>
             </div>
             <div class="check-option">
                 <input id="gitter" type="checkbox" name="improve" value="6" class="inline" />
-                <label class="option-check">Gitter help rooms</label>
+                <label class="option-check">Delivery options</label>
             </div>
-            <div class="check-option">
-                <input id="videos" type="checkbox" name="improve" value="7" class="inline" />
-                <label class="option-check">Videos</label>
-            </div>
-            <div class="check-option">
-                <input id="meetups" type="checkbox" name="improve" value="8" class="inline" />
-                <label class="option-check">City Meetups</label>
-            </div>
-            <div class="check-option">
-                <input id="wiki" type="checkbox" name="improve" value="9" class="inline" />
-                <label class="option-check">Wiki</label>
-            </div>
-            <div class="check-option">
-                <input id="forum" type="checkbox" name="improve" value="10" class="inline" />
-                <label class="option-check">Forum</label>
-            </div>
-            <div class="check-option">
-                <input id="additional" type="checkbox" name="improve" value="11" class="inline" />
-                <label class="option-check">Additional Courses</label>
-            </div>
+            <label for="comments">Any additional comments or suggestions?</label>
+            <textarea id ="comments" rows="3" cols="50" placeholder="Enter your comment here ...." name="comments"></textarea>
+            <input type="submit" id="submit" value="Submit">
         </form>
     </div>
 </body>

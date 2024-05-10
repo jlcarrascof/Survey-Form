@@ -33,7 +33,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-image: url("https://images.unsplash.com/photo-1506280754576-f6fa8a873550?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -47,7 +47,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(45, 2, 118, 0.573);
+    background: rgba(170, 11, 80, 0.641);
     z-index: -1;
 }
 
@@ -55,7 +55,7 @@ h1 {
     display: block;
     justify-content: center;
     align-items: center;
-    min-height: 150vh;
+    min-height: 140vh;
     width: 55vw;
     background-color: rgba(15, 0, 0, 0.607);
     position: relative;
@@ -123,4 +123,25 @@ form select {
 
 .container form .option-radio, .container form .option-check {
     margin-left: 0px;
+}
+
+.container textarea {
+    margin: 10px 0 0 30px;
+    width: calc(100% - 85px);
+    min-height: 6rem;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 90%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1rem;
+    background-color: rgba(106, 228, 106, 0.561);
+    border-color: rgba(106, 228, 106, 0.561);
+    color: white;
+    min-width: 200px;
+    border-radius: 2px;
 }
